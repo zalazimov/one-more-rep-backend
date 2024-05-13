@@ -8,4 +8,6 @@ exercisesController.get("/", (req, res) => {
   res.status(200).json({ data: exercises });
 });
 
+// Error Validation
+
 module.exports = exercisesController;

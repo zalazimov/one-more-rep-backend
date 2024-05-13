@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 
 // 404 route
 app("*", (req, res) => {
-  res.status(400).send("Page not Found");
+  res.status(400).send("This page not Found");
 });
 
 module.exports = app;
